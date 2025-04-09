@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/Shaiksulthan206/MERN-Stack-eks-terraform.git'
+                git branch: 'main', url: 'https://github.com/Shaiksulthan206/MERN-Stack-eks-terraform.git'
             }
         }
         stage('Init') {
